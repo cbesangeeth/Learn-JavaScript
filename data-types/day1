@@ -1,0 +1,56 @@
+Introduction to JS:
+
+-Weakly Typed scripting language.
+Eg:
+'10' //valid
+"10" //valid
+
+Data types:
+
+Number:
+Can be number or float
+Eg:
+let a = 10;  // valid
+let b = 10.30 // valid
+let c = 10.0 // considered as 10
+let d = Number.MAX_SAFE_INTEGER // 9007199254740991
+
+Special numbers types:
+INFINITY, -INFINITY, NaN
+1/0 : INFINITY
+"1"/0 : INFINITY // note: JS tries to convert string to number, so here we will get 'INFINITY'
+"10"/"5"
+"e"/10 : NaN  // Not a Number
+("invalid"/10 )+ 2 : NaN  // whenever NaN occurs, result of whole expression is NaN
+
+== & ===
+== : it will compare only the value
+Eg:
+let a = 10;
+let b = "10";
+a==b // true
+
+==== : it will compare both the value and the data types
+Eg:
+let a = 10;
+let b = "10";
+a==b // false
+
+typeof:
+It will return the type of the data
+Eg:
+typeof(1)  // Number
+typeof("sangeeth") //string
+typeof(NaN) // Number  , coz its a Special number
+typeof(INFINITY // Number)
+typeof(null) // object
+typeof(object) // function
+typeof(typeof(object))  // string, coz internal typeof returns like "function". So it is actually a string.
+
+NULL:
+
+object:
+
+String:
+
+function:
