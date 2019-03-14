@@ -1,0 +1,39 @@
+Object:
+
+All are object in JS
+    String
+    Boolean
+    Number
+    Date.....
+
+Three ways to create an object:
+Object Literal:
+eg: var person = {name:"shobha",age:5}
+
+NEW Object keyword:
+eg: var person = new Object();
+    person.name = "shobha";
+    person.age=40;
+
+Constructor: (object.create())
+eg:
+
+NULL:
+its is also a object. with null value
+eg: var a= null
+
+UNDEFINED:
+when defined the variable, but not decalred
+eg:
+var a; //undefined
+
+null vs undefined --> https://codeburst.io/javascript-null-vs-undefined-20f955215a2
+
+
+NEXT DAY:
+
+this:
+Constructor:
+functon:
+string:
+https://learn.freecodecamp.org/
